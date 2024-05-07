@@ -51,8 +51,8 @@ window.onload = function(){
     
     //Move function
     function move(){
-        gh.update();
         gp.update();
+        gh.update();
     }
     
     //Create game pieces
