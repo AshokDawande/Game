@@ -37,8 +37,6 @@ window.onload = function(){
             this.y = y;
             ctx.fillStyle = "yellow";
             ctx.fillRect(x, y, 50, 50);
-            ctx.fillStyle = "red";
-            ctx.fillRect(65,this.y,15,25);
             
             this.update = function(){
                 ctx.fillStyle = "yellow";
