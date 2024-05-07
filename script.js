@@ -6,6 +6,8 @@ window.onload = function(){
     const up = document.getElementById("u");
     const down = document.getElementById("d");
     
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
     
     const speed = 20;
     
