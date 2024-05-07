@@ -30,7 +30,7 @@ canvas{
     position:absolute;
     text-align:center;
     padding:10px;
-    background-color:gray;
+    background: -webkit-radial-gradient(lightgray,gray,black);
     border-radius:100px;
     width:100px;
     height:100px;
